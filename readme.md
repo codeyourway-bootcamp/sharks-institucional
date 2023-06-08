@@ -1,5 +1,5 @@
 <h1>Projeto Farmácia de Manipulação</h1>
-<p>Primeiro projeto em grupo do bootcampo CodeYourWay</p><br>
+<p>Primeiro projeto em grupo do bootcamp CodeYourWay</p><br>
 <p>Integrantes:</p><br>
 <ul>
     <li>Diego Gonçalves</li>
