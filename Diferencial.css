@@ -1,0 +1,18 @@
+.container-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 40px 100px;
+  /* gap: 100px;*/
+}
+
+.container-diferencial {
+  /*display: flex;*/
+  display: block;
+  align-items: center;
+}
+/*
+img,
+p {
+  display: inline-block;
+}*/
