@@ -1,18 +1,45 @@
-.container-imagens {
+
+.container-texto{
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 80px auto 0px auto;
+  gap:20px;
+}
+.container-texto img{
+  margin: 52px auto 0px auto;
+
+}
+.container-texto p{
+margin: 0px;
+font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+font-size: 54px;
+padding: 0px;
+color: #076633;
+}
+.kit_emagrecedor_1{
+  width: 400px;
+  height: 400px;
+}
+.container-imagens  {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin: 40px 100px;
   /* gap: 100px;*/
+  justify-content: center;
+  
 }
 
 .container-diferencial {
-  /*display: flex;*/
+  display: flex;
   display: block;
   align-items: center;
 }
-/*
-img,
-p {
-  display: inline-block;
-}*/
+body
+{
+  background-image: url(imagens/imagem\ _capa_\ .jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
