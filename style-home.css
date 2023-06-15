@@ -107,3 +107,55 @@
   background-image: url(./imagens/fundo-sobre-nos.png);
   background-size: cover;
 }
+
+/* DISPOSITIVOS MÓVEIS */
+
+@media screen and (max-width: 950px) {
+  .topo-fixo {
+    padding: 10px;
+  }  
+  .home {
+  background-size: 100% 1024px;
+  background-repeat:no-repeat ;
+  
+}
+@media screen and (max-width: 910px) {
+  .logo {
+  width: 150px;
+  margin-left: 10px;
+}
+.home {
+  background-size: 100% 1024px;
+  background-repeat:no-repeat ;
+  
+  }  
+@media screen and (max-width: 768px) {
+  .logo {
+  width: 100px;
+  margin-left: 10px;
+}
+.topo-fixo {
+  font-size: 15px;
+}
+.navegacao-externa > a > img {
+  width: 20px;
+  
+}
+.home {
+  background-size: 100% 1024px;
+  background-repeat:no-repeat ;
+  }  
+}
+@media screen and (max-width: 425px){
+  .navegacao-interna {
+    display: none;
+  }
+  .navegacao-externa {
+    display: none;
+  }
+  .texto-sobre {
+    margin: 100px 30px 10px 30px;
+    font-size: 15px;
+  gap: 10px;
+  }
+}
