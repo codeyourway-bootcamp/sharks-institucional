@@ -24,8 +24,7 @@ color: #076633;
 }
 .container-imagens  {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  align-items: center;  
   margin: 40px 100px;
   /* gap: 100px;*/
   justify-content: center;
@@ -113,5 +112,5 @@ body
   align-items: center;
   margin: 16px 0px;
   /* gap: 100px;*/
-  justify-content: center;
+  /*justify-content: center;
 }*/

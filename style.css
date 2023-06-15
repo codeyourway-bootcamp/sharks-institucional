@@ -109,7 +109,7 @@
   background-image: url(./imagens/fundo-sobre-nos.png);
   background-size: cover;
 }
-.espaçamento{
+.espacamento{
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -120,4 +120,12 @@
   background-image: url(./imagens/fundo-sobre-nos.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+.espacamento > li > a {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
 }
